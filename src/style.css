@@ -32,13 +32,13 @@
   transition: 0.3s ease;
 }
 .logo:hover {
-  color: orangered;
-  text-shadow: 0 0 25px orangered, 0 0 50px orangered;
+  color: crimson;
+  text-shadow: 0 0 25px crimson, 0 0 50px crimson;
   transform: scale(1.1);
 }
 
 span {
-  color: orangered;
+  color: crimson;
 }
 
 .navbar a {
@@ -49,8 +49,8 @@ span {
 }
 .navbar a:hover,
 .navbar a.active {
-  color: orangered;
-  border-bottom: 3px solid orangered;
+  color: crimson;
+  border-bottom: 3px solid crimson;
 }
 
 .contact {
@@ -60,8 +60,8 @@ span {
   transition: 0.3s ease;
 }
 .contact:hover {
-  background-color: orangered;
-  box-shadow: 0 0 25px orangered;
+  background-color: crimson;
+  box-shadow: 0 0 25px crimson;
 }
 
 .home {
@@ -97,21 +97,21 @@ span {
 }
 .btn2 {
   padding: 15px 28px;
-  background-color: orangered;
+  background-color: crimson;
   font-weight: 600;
   transition: 0.3 ease;
   cursor: pointer;
 }
 .btn2:hover {
-  border: 2px solid orangered;
-  color: orangered;
+  border: 2px solid crimson;
+  color: crimson;
 }
 
 ::-webkit-scrollbar {
   width: 15px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: orangered;
+  background-color: crimson;
 }
 ::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.6);
@@ -181,7 +181,7 @@ span {
   transition: 0.3s ease;
 }
 .footer ul li a:hover {
-  border-bottom: 3px solid orangered;
+  border-bottom: 3px solid crimson;
 }
 .footer ul li {
   display: inline-block;
@@ -204,7 +204,7 @@ span {
 }
 
 .link {
-  color: orangered;
+  color: crimson;
   transition: 0.3s ease;
 }
 .link:hover {
