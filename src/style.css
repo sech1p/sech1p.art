@@ -296,3 +296,10 @@ li {
 .accordion-content {
   padding: 10px;
 }
+
+.privacy-policy {
+  padding: 100px 12% 0;
+}
+.privacy-policy-content {
+  max-width: 1000px;
+}

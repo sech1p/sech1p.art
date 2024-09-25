@@ -11,6 +11,7 @@
   import Blahaj from "./pages/portfolio/Blahaj.svelte";
   import Donate from "./pages/Donate.svelte";
   import FAQ from "./pages/FAQ.svelte";
+  import PrivacyPolicy from "./pages/PrivacyPolicy.svelte";
 
   let currentLocation = "";
 
@@ -66,6 +67,7 @@
     <Route path="/portfolio/blahaj" component="{Blahaj}" />
     <Route path="/donations" component="{Donate}" />
     <Route path="/faq" component={FAQ} />
+    <Route path="/privacy-policy" component={PrivacyPolicy} />
   </main>
 
   <footer class="footer relative bottom-0 w-full bg-black">
