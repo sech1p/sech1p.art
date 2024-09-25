@@ -5,6 +5,7 @@
     Link,
   } from "svelte-routing";
   import Home from "./pages/Home.svelte";
+  import Interests from "./pages/Interests.svelte";
 </script>
 
 <Router>
@@ -12,7 +13,7 @@
     <Link to="/" class="logo text-white"><span>sec</span>h1p</Link>
     <nav class="navbar text-xl text-white">
       <Link to="/" class="active nav-link">Home</Link>
-      <a href="#" class="nav-link">My interests</a>
+      <Link to="/interests" class="nav-link">My interests</Link>
       <a href="#" class="nav-link">Portfolio</a>
       <a href="#" class="nav-link">Donations</a>
     </nav>
@@ -21,6 +22,7 @@
 
   <main>
     <Route path="/" component={Home} />
+    <Route path="/interests" component={Interests} />
   </main>
 
   <footer class="footer relative bottom-0 w-full bg-black">
