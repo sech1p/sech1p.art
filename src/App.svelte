@@ -9,6 +9,7 @@
   import Interests from "./pages/Interests.svelte";
   import Portfolio from "./pages/Portfolio.svelte";
   import Blahaj from "./pages/portfolio/Blahaj.svelte";
+  import Website from "./pages/portfolio/Website.svelte";
   import Donate from "./pages/Donate.svelte";
   import FAQ from "./pages/FAQ.svelte";
   import PrivacyPolicy from "./pages/PrivacyPolicy.svelte";
@@ -65,6 +66,7 @@
     <Route path="/interests" component={Interests} />
     <Route path="/portfolio" component={Portfolio} />
     <Route path="/portfolio/blahaj" component={Blahaj} />
+    <Route path="/portfolio/website" component={Website} />
     <Route path="/donations" component={Donate} />
     <Route path="/faq" component={FAQ} />
     <Route path="/privacy-policy" component={PrivacyPolicy} />
