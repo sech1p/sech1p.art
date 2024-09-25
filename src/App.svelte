@@ -73,19 +73,16 @@
   <footer class="footer relative bottom-0 w-full bg-black">
     <ul class="list mt-0 mb-0 p-0 text-lg text-center text-white">
       <li>
-        <a href="#">FAQ</a>
+        <Link to="/faq">FAQ</Link>
       </li>
       <li>
-        <a href="#">Services</a>
+        <a href="https://sech1p.link">My Card</a>
       </li>
       <li>
-        <a href="#">My Card</a>
+        <Link to="/privacy-policy">Privacy Policy</Link>
       </li>
       <li>
-        <a href="#">Privacy Policy</a>
-      </li>
-      <li>
-        <a href="#">Source code</a>
+        <a href="https://github.com/sech1p/sech1p.ovh">Source code</a>
       </li>
     </ul>
     <p class="text-xs mt-15 text-white text-center">© 2024 Eliza Emilia "sech1p" Semeniuk. Licensed under Apache-2.0 license.</p>
