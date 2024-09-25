@@ -63,9 +63,9 @@
   <main>
     <Route path="/" component={Home} />
     <Route path="/interests" component={Interests} />
-    <Route path="/portfolio" component="{Portfolio}" />
-    <Route path="/portfolio/blahaj" component="{Blahaj}" />
-    <Route path="/donations" component="{Donate}" />
+    <Route path="/portfolio" component={Portfolio} />
+    <Route path="/portfolio/blahaj" component={Blahaj} />
+    <Route path="/donations" component={Donate} />
     <Route path="/faq" component={FAQ} />
     <Route path="/privacy-policy" component={PrivacyPolicy} />
   </main>
