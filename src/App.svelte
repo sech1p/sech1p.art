@@ -9,6 +9,7 @@
   import Interests from "./pages/Interests.svelte";
   import Portfolio from "./pages/Portfolio.svelte";
   import Blahaj from "./pages/portfolio/Blahaj.svelte";
+  import Donate from "./pages/Donate.svelte";
 
   let currentLocation = "";
 
@@ -46,7 +47,13 @@
       >
         Portfolio
       </Link>
-      <a href="#" class="nav-link">Donations</a>
+      <Link
+        to="/donations"
+        on:click={() => handleLinkClick("/donations")}
+        class="{currentLocation === '/donations' ? 'active' : ''} nav-link"
+      >
+        Donations
+      </Link>
     </nav>
     <a href="#contact" class="contact bg-white text-black border-2 rounded-3xl text-base hover:text-white">Contact Me</a>
   </header>
@@ -56,6 +63,7 @@
     <Route path="/interests" component={Interests} />
     <Route path="/portfolio" component="{Portfolio}" />
     <Route path="/portfolio/blahaj" component="{Blahaj}" />
+    <Route path="/donations" component="{Donate}" />
   </main>
 
   <footer class="footer relative bottom-0 w-full bg-black">
