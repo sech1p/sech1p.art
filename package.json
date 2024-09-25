@@ -1,0 +1,46 @@
+{
+  "name": "sech1p.ovh",
+  "version": "0.0.0",
+  "description": "Source code of my personal page",
+  "main": "index.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "serve": "vite serve",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sech1p/sech1p.ovh.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio"
+  ],
+  "author": "Eliza Emilia \"sech1p\" Semeniuk <sech1p@disroot.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sech1p/sech1p.ovh/issues"
+  },
+  "homepage": "https://github.com/sech1p/sech1p.ovh#readme",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@tsconfig/svelte": "^5.0.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "svelte": "^4.2.19",
+    "svelte-check": "^4.0.2",
+    "svelte-preprocess": "^6.0.2",
+    "tailwindcss": "^3.4.13",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "svelte-routing": "^2.13.0"
+  }
+}
