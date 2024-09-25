@@ -22,4 +22,25 @@
   <main>
     <Route path="/" component={Home} />
   </main>
+
+  <footer class="footer relative bottom-0 w-full bg-black">
+    <ul class="list mt-0 mb-0 p-0 text-lg text-center text-white">
+      <li>
+        <a href="#">FAQ</a>
+      </li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">My Card</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="#">Source code</a>
+      </li>
+    </ul>
+    <p class="text-xs mt-15 text-white text-center">© 2024 Eliza Emilia "sech1p" Semeniuk. Licensed under Apache-2.0 license.</p>
+  </footer>
 </Router>
