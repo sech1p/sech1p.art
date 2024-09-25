@@ -1,5 +1,6 @@
 <script>
   import About from "./About.svelte";
+  import Contact from "./Contact.svelte";
 </script>
 
 <section class="home flex w-full min-h-screen bg-white items-center gap-28">
@@ -21,3 +22,4 @@
   </div>
 </section>
 <About />
+<Contact />
