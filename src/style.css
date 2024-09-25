@@ -190,6 +190,8 @@ span {
 
 .my-interests {
   padding: 100px 12% 0;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .interests-content {
   max-width: 1000px;
