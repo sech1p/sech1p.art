@@ -11,7 +11,12 @@
     </p>
     <div class="btns flex gap-8">
       <button class="btn1 bg-black text-white rounded-2xl text-lg tracking-widget hover:bg-white hover:text-black">Hire me!</button>
-      <button class="btn2 text-white rounded-2xl text-lg tracking-widget hover:bg-white hover:text-black">About me</button>
+      <button
+        on:click="{() => document.getElementById('about').scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })}"
+        class="btn2 text-white rounded-2xl text-lg tracking-widget hover:bg-white hover:text-black"
+      >
+        About me
+      </button>
     </div>
   </div>
 </section>

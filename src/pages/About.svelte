@@ -1,4 +1,4 @@
-<section class="about flex flex-1 justify-center items-center gap-40 bg-black">
+<section id="about" class="about flex flex-1 justify-center items-center gap-40 bg-black">
   <div class="about-content">
     <h2 class="heading">About <span>Me</span></h2>
     <h3>Fullstack <span>Developer</span></h3>
