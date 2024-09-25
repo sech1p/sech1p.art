@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from "svelte";
   import {
     Router,
     Route,
@@ -6,14 +7,36 @@
   } from "svelte-routing";
   import Home from "./pages/Home.svelte";
   import Interests from "./pages/Interests.svelte";
+
+  let currentLocation = "";
+
+  onMount(() => {
+    currentLocation = window.location.pathname;
+  });
+
+  const handleLinkClick = location => {
+    currentLocation = location;
+  }
 </script>
 
 <Router>
   <header class="header flex flex-1 bg-black/80 fixed top-0 left-0 backdrop-filter backdrop-blur-md items-center justify-between w-full z-100">
-    <Link to="/" class="logo text-white"><span>sec</span>h1p</Link>
+    <Link on:click={() => handleLinkClick("/")} to="/" class="logo text-white"><span>sec</span>h1p</Link>
     <nav class="navbar text-xl text-white">
-      <Link to="/" class="active nav-link">Home</Link>
-      <Link to="/interests" class="nav-link">My interests</Link>
+      <Link
+        to="/"
+        on:click={() => handleLinkClick("/")}
+        class="{currentLocation === '/' ? 'active' : ''} nav-link"
+      >
+        Home
+      </Link>
+      <Link
+        to="/interests"
+        on:click={() => handleLinkClick("/interests")}
+        class="{currentLocation === '/interests' ? 'active' : ''} nav-link"
+      >
+        My interests
+      </Link>
       <a href="#" class="nav-link">Portfolio</a>
       <a href="#" class="nav-link">Donations</a>
     </nav>
