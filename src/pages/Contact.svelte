@@ -1,4 +1,4 @@
-<section class="contact-form">
+<section id="contact" class="contact-form">
   <h2 class="contact-me text-center text-4xl">Contact <span>Me</h2>
   
   <form action="#" class="text-center">

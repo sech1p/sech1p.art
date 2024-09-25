@@ -16,7 +16,7 @@
       <a href="#" class="nav-link">Portfolio</a>
       <a href="#" class="nav-link">Donations</a>
     </nav>
-    <a href="#" class="contact bg-white text-black border-2 rounded-3xl text-base hover:text-white">Contact Me</a>
+    <a href="#contact" class="contact bg-white text-black border-2 rounded-3xl text-base hover:text-white">Contact Me</a>
   </header>
 
   <main>
