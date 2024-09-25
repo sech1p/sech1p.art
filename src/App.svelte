@@ -10,6 +10,7 @@
   import Portfolio from "./pages/Portfolio.svelte";
   import Blahaj from "./pages/portfolio/Blahaj.svelte";
   import Donate from "./pages/Donate.svelte";
+  import FAQ from "./pages/FAQ.svelte";
 
   let currentLocation = "";
 
@@ -64,6 +65,7 @@
     <Route path="/portfolio" component="{Portfolio}" />
     <Route path="/portfolio/blahaj" component="{Blahaj}" />
     <Route path="/donations" component="{Donate}" />
+    <Route path="/faq" component={FAQ} />
   </main>
 
   <footer class="footer relative bottom-0 w-full bg-black">
