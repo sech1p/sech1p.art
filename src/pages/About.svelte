@@ -3,7 +3,9 @@
     <h2 class="heading">About <span>Me</span></h2>
     <h3>Fullstack <span>Developer</span></h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Hello! I'm Eliza Emilia Semeniuk (<i>sech1p</i>). I am 19 years old. I have been interested in technology and IT since I was a child.
+      I am currently NEET, but I hope that will change soon. Privately I am interested in many things in the world around us.
     </p>
+    <p>Apart from programming, I am also interested in things like photography, music production, computer graphics, computer drawing, nature, art, anime, rave and video games.</p>
   </div>
 </section>
