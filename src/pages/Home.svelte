@@ -8,7 +8,7 @@
     <h3>Hi!</h3>
     <h1>I'm <span>Eliza<br></span>a Fullstack Developer</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      I'm a passionate and dedicated software engineer. I specialize in building scalable and maintainable applications using modern technologies like TypeScript, WebSockets, and Svelte. I'm currently looking for opportunities to work on cutting-edge projects and contribute to the tech community.
     </p>
     <div class="btns flex gap-8">
       <button class="btn1 bg-black text-white rounded-2xl text-lg tracking-widget hover:bg-white hover:text-black">Hire me!</button>
