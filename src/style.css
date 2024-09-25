@@ -22,6 +22,7 @@
 
 .header {
     padding: 35px 12%;
+    z-index: 100;
 }
 
 .logo {
@@ -205,4 +206,37 @@ span {
 }
 .link:hover {
   text-decoration: underline;
+}
+
+.my-portfolio {
+  padding: 0% 12% 0;
+}
+.portfolio-content {
+  max-width: 1000px;
+}
+.portfolio-item {
+  margin-top: 5%;
+  width: 25%;
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.05);
+  }
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+.portfolio-desc {
+  padding-bottom: 15%;
+  transform: translateY(-50%);
+  transition: 0.3s ease;
+}
+.portfolio-showcase {
+  right: 12%;
+  transform: translateY(-50%);
+  transition: 0.3s ease;
 }
