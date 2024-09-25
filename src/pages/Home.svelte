@@ -1,3 +1,7 @@
+<script>
+  import About from "./About.svelte";
+</script>
+
 <section class="home flex w-full min-h-screen bg-white items-center gap-28">
   <div class="home-content">
     <h3>Hi!</h3>
@@ -11,3 +15,4 @@
     </div>
   </div>
 </section>
+<About />

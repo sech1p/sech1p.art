@@ -114,3 +114,21 @@ span {
   background-color: rgba(0, 0, 0, 0.6);
   width: 50px;
 }
+
+.about {
+  padding: 10% 8%;
+}
+.about-content h2 {
+  text-align: left;
+  color: white;
+  font-size: 42px;
+}
+.about-content h3 {
+  color: white;
+  font-size: 62px;
+}
+.about-content p {
+  color: white;
+  font-size: 20px;
+  margin: 2em 0 3em;
+}
