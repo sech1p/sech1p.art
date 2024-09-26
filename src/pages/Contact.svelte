@@ -2,13 +2,9 @@
   <h2 class="contact-me text-center text-4xl">Contact <span>Me</h2>
   
   <form action="#" class="text-center">
-    <div class="input-box gap-4">
+    <div class="input-box">
       <input type="text" placeholder="Name">
       <input type="email" placeholder="E-mail">
-      
-    </div>
-    <div class="input-box gap-4">
-      <input type="number" placeholder="Phone Number">
       <input type="text" placeholder="Subject">
     </div>
 

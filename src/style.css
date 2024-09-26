@@ -152,6 +152,7 @@ span {
 .contact-form form .input-box {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 .contact-form form .input-box input,
