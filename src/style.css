@@ -313,3 +313,15 @@ li {
 .privacy-policy-content {
   max-width: 1000px;
 }
+.privacy-policy-collected-data {
+  margin-top: 2.5%;
+  margin-bottom: 20px;
+}
+.privacy-policy-collected-data li {
+  padding: 0 36px;
+}
+.privacy-policy-collected-data p {
+  margin-top: -1.5%;
+  margin-bottom: 1%;
+  padding: 0 36px;
+}
