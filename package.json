@@ -1,5 +1,5 @@
 {
-  "name": "sech1p.ovh",
+  "name": "sech1p.art",
   "version": "0.0.0",
   "description": "Source code of my personal page",
   "main": "index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sech1p/sech1p.ovh.git"
+    "url": "git+https://github.com/sech1p/sech1p.art.git"
   },
   "keywords": [
     "website",
@@ -23,9 +23,9 @@
   "author": "Eliza Emilia \"sech1p\" Semeniuk <sech1p@disroot.org>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sech1p/sech1p.ovh/issues"
+    "url": "https://github.com/sech1p/sech1p.art/issues"
   },
-  "homepage": "https://github.com/sech1p/sech1p.ovh#readme",
+  "homepage": "https://github.com/sech1p/sech1p.art#readme",
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@tsconfig/svelte": "^5.0.4",
