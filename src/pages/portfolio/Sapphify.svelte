@@ -9,7 +9,7 @@
       </p>
       <p class="link">🌐 Visit (coming soon)</p>
       <p class="link">📝 Source code (coming soon)</p>
-      <div class="portfolio-showcase absolute text-white bg-black/75 w-4/12 p-5 top-2/4 rounded-xl">
+      <div class="portfolio-showcase portfolio-sapphify absolute text-white bg-black/75 w-full p-5 top-2/4 rounded-xl">
         <img src="https://github.com/sech1p/sech1p.art/raw/refs/heads/main/assets/sapphify.png" alt="Sapphify showcase">
       </div>
     </div>
