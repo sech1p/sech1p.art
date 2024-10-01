@@ -2,7 +2,7 @@ const gulp = require("gulp");
 
 gulp.task("assets", () => {
   return gulp
-    .src("./assets/**")
+    .src("./assets/**", { encoding: false })
     .pipe(gulp.dest("./dist/assets"));
 });
 
