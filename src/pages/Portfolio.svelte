@@ -18,7 +18,7 @@
     </div>
     <div class="portfolio-item mb-8 overflow-hidden rounded-xl" on:click={() => redirectToProject("website")}>
       <img src="assets/website.png" alt="Website">
-      <h3 class="text-3xl">sech1p.ovh</h3>
+      <h3 class="text-3xl">sech1p.art</h3>
     </div>
   </div>
 </section>
