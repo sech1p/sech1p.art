@@ -18,12 +18,12 @@
   let currentLocation = "";
   let isMobile;
 
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    isMobile = true;
+  }
+
   onMount(() => {
     currentLocation = window.location.pathname;
-
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      isMobile = true;
-    }
   });
 
   const handleLinkClick = location => {
