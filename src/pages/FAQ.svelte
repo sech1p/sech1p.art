@@ -1,4 +1,8 @@
-<section class="faq flex w-full min-h-screen bg-white items-center gap-28">
+<script>
+  export let isMobile;
+</script>
+
+<section class="{isMobile ? 'faq-mobile' : 'faq'} flex w-full min-h-screen bg-white items-center gap-28">
   <div class="faq-content">
     <h3 class="text-5xl">Frequently Asked Questions</h3>
     <div class="mt-10">

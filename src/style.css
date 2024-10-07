@@ -244,6 +244,24 @@ span {
     height: 75%;
   }
 }
+.portfolio-item-mobile {
+  width: 75%;
+  top: 0;
+  flex: 1;
+  max-width: 300px;
+  margin: 0 10px;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.05);
+  }
+  img {
+    width: auto;
+    height: 75%;
+  }
+}
 .portfolio-desc {
   padding-bottom: 15%;
   transform: translateY(-50%);
@@ -280,6 +298,11 @@ li {
   padding: 100px 12% 0;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.faq-mobile {
+  padding: 100px 12% 0;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 .faq-content {
   max-width: 1000px;

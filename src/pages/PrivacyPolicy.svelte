@@ -1,4 +1,8 @@
-<section class="privacy-policy flex w-full min-h-screen bg-white items-center gap-28">
+<script>
+  export let isMobile;
+</script>
+
+<section class="privacy-policy flex w-full min-h-screen bg-white items-center gap-28 {isMobile ? 'mt-48' : ''}">
   <div class="privacy-policy-content">
     <h2 class="text-5xl mt-10">Privacy Policy</h2>
     <h3 class="text-3xl mt-10">Your Privacy Matters</h3>

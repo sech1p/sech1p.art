@@ -1,13 +1,15 @@
 <script>
   import About from "./About.svelte";
   import Contact from "./Contact.svelte";
+
+  export let isMobile;
 </script>
 
 <section class="home flex w-full min-h-screen bg-white items-center gap-28">
-  <div class="home-content">
+  <div class="home-content {isMobile ? 'mt-48' : ''}">
     <h3>Hi!</h3>
     <h1>I'm <span>Eliza<br></span>a Fullstack Developer</h1>
-    <p>
+    <p class="{isMobile ? 'text-wrap' : ''}">
       I'm a passionate and dedicated software engineer. I specialize in building scalable and maintainable applications using modern technologies like TypeScript, WebSockets, and Svelte. I'm currently looking for opportunities to work on cutting-edge projects and contribute to the tech community.
     </p>
     <div class="btns flex gap-8">

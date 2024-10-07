@@ -1,4 +1,8 @@
-<section class="my-interests flex w-full min-h-screen bg-white items-center gap-28">
+<script>
+  export let isMobile;
+</script>
+
+<section class="my-interests flex w-full min-h-screen bg-white items-center gap-28 {isMobile ? 'mt-48' : ''}">
   <div class="interests-content">
     <h2 class="text-3xl font-bold text-gray-900">My Interests</h2>
     <p class="text-gray-700">

@@ -16,9 +16,14 @@
   import PrivacyPolicy from "./pages/PrivacyPolicy.svelte";
 
   let currentLocation = "";
+  let isMobile;
 
   onMount(() => {
     currentLocation = window.location.pathname;
+
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      isMobile = true;
+    }
   });
 
   const handleLinkClick = location => {
@@ -27,13 +32,13 @@
 </script>
 
 <Router>
-  <header class="header flex flex-1 bg-black/80 fixed top-0 left-0 backdrop-filter backdrop-blur-md items-center justify-between w-full z-100">
+  <header class="header flex flex-1 flex-col sm:flex-row md:flex-row right-1/2 bg-black/80 fixed top-0 left-0 backdrop-filter backdrop-blur-md items-center justify-between w-full z-100">
     <Link on:click={() => handleLinkClick("/")} to="/" class="logo text-white"><span>sec</span>h1p</Link>
-    <nav class="navbar text-xl text-white">
+    <nav class="navbar flex flex-col sm:flex-row md:flex-row items-center justify-center text-xl text-white">
       <Link
         to="/"
         on:click={() => handleLinkClick("/")}
-        class="{currentLocation === '/' ? 'active' : ''} nav-link"
+        class="{currentLocation === '/' ? 'active' : ''} nav-link block sm:inline md:inline"
       >
         Home
       </Link>
@@ -63,15 +68,15 @@
   </header>
 
   <main>
-    <Route path="/" component={Home} />
-    <Route path="/interests" component={Interests} />
-    <Route path="/portfolio" component={Portfolio} />
-    <Route path="/portfolio/blahaj" component={Blahaj} />
-    <Route path="/portfolio/sapphify" component={Sapphify} />
-    <Route path="/portfolio/website" component={Website} />
-    <Route path="/donations" component={Donate} />
-    <Route path="/faq" component={FAQ} />
-    <Route path="/privacy-policy" component={PrivacyPolicy} />
+    <Route path="/" component={Home} isMobile={isMobile} />
+    <Route path="/interests" component={Interests} isMobile={isMobile} />
+    <Route path="/portfolio" component={Portfolio} isMobile={isMobile} />
+    <Route path="/portfolio/blahaj" component={Blahaj} isMobile={isMobile} />
+    <Route path="/portfolio/sapphify" component={Sapphify} isMobile={isMobile} />
+    <Route path="/portfolio/website" component={Website} isMobile={isMobile} />
+    <Route path="/donations" component={Donate} isMobile={isMobile} />
+    <Route path="/faq" component={FAQ} isMobile={isMobile} />
+    <Route path="/privacy-policy" component={PrivacyPolicy} isMobile={isMobile} />
   </main>
 
   <footer class="footer relative bottom-0 w-full bg-black">
