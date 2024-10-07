@@ -1,4 +1,4 @@
-# 🌐 sech1p.ovh
+# 🌐 sech1p.art
 
 ![Screenshot of my website](assets/website.png)
 
