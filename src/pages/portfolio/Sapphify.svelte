@@ -14,7 +14,7 @@
       <p class="link">🌐 Visit (coming soon)</p>
       <p class="link">📝 Source code (coming soon)</p>
     </div>
-    <div class="portfolio-showcase {isMobile ? 'relative mt-48 left-[10%] w-64 h-64' : 'absolute'} text-white bg-black/75 w-full p-5 top-2/4 rounded-xl">
+    <div class="portfolio-showcase {isMobile ? 'relative mt-48 left-[10%] w-64 h-64' : 'absolute'} text-white bg-black/75 w-4/12 p-5 top-2/4 rounded-xl">
       <img src="https://github.com/sech1p/sech1p.art/raw/refs/heads/main/assets/sapphify.png" class="{isMobile ? 'w-full h-full' : ''}" alt="Sapphify showcase">
     </div>
   </div>
