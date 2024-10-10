@@ -9,7 +9,7 @@
 </script>
 
 <section class="my-portfolio flex w-full min-h-screen bg-white items-center gap-28">
-  <div class="portfolio-menu-content {isMobile ? 'flex-col items-center' : ''}">
+  <div class="portfolio-menu-content {isMobile ? 'flex-col items-center mt-72 mb-2' : ''}">
     <div class="{isMobile ? 'mt-48 portfolio-item-mobile' : 'portfolio-item'} mb-8 overflow-hidden rounded-xl" on:click={() => redirectToProject("blahaj")}>
       <img src="assets/blahaj.webp" alt="Blahaj">
       <h3 class="text-3xl">blahaj</h3>

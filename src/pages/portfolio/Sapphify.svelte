@@ -4,10 +4,10 @@
 
 <section class="my-portfolio flex w-full min-h-screen bg-white items-center gap-28">
   <div class="portfolio-content {isMobile ? 'mt-24' : ''}">
-    <h3 class="text-4xl">Sapphify</h3>
+    <h3 class="text-4xl {isMobile ? 'mt-48' : ''}">Sapphify</h3>
     <p class="text-lg">A modern meet/dating app for sapphics.</p>
     <div class="portfolio-desc absolute inset-y-3/4 p-5 mt-2 {isMobile ? 'w-8/12' : 'w-4/12'} rounded-xl">
-      <h4 class="text-2xl">Description</h4>
+      <h4 class="text-2xl {isMobile ? 'mt-48' : ''}">Description</h4>
       <p>
         Sapphify is a modern, user-friendly meet/dating app for sapphics. Users can create profiles, upload photos, and set up meet-and-greets. The app features a clean, modern design, and an intuitive interface. Currently Sapphify is in development and will be available soon.
       </p>

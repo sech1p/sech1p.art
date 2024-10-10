@@ -4,10 +4,10 @@
 
 <section class="my-portfolio flex w-full min-h-screen bg-white items-center gap-28">
   <div class="portfolio-content {isMobile ? 'mt-24' : ''}">
-    <h3 class="text-4xl">blahaj</h3>
+    <h3 class="text-4xl {isMobile ? 'mt-48': ''}">blahaj</h3>
     <p class="text-lg">🦈 Beloved IKEA shark, now in your terminal!</p>
     <div class="portfolio-desc absolute inset-y-3/4 p-5 mt-2 {isMobile ? 'w-8/12' : 'w-4/12'} rounded-xl">
-      <h4 class="text-2xl">Description</h4>
+      <h4 class="text-2xl {isMobile ? 'mt-48' : ''}">Description</h4>
       <p>
         blahaj is a command-line tool that displays plushie images, colors your text with queer themes, and <i>will soon</i> feature pride flags in your terminal.
       </p>
