@@ -67,7 +67,7 @@
     <a href="#contact" class="{currentLocation === '/' ? '' : 'invisible'} contact bg-white text-black border-2 rounded-3xl text-base hover:text-white">Contact Me</a>
   </header>
 
-  <main class="{isMobile ? 'pb-72' : ''}">
+  <main class="{isMobile ? 'pb-80' : ''}">
     <Route path="/" component={Home} isMobile={isMobile} />
     <Route path="/interests" component={Interests} isMobile={isMobile} />
     <Route path="/portfolio" component={Portfolio} isMobile={isMobile} />
